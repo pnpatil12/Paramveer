@@ -28,7 +28,7 @@ public class Logoutpage {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		uid.click();
 		Actions a = new Actions (driver);
-		Thread.sleep(5000);
+		
 		a.moveToElement(logoutbutton).click().build().perform();
 	}
 	
